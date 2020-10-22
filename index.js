@@ -3,7 +3,6 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 
-const MIT = "https://opensource.org/licenses/MIT";
 
 // array of questions for user
 const questions = [
@@ -39,6 +38,11 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'testing',
+        message: 'Provide test instructions '
+    },
+    {
+        type: 'input',
         name: 'authorName',
         message: 'Enter your full name'
     },
@@ -70,8 +74,9 @@ function promptUser() {
         res.screenShot = res.screenShot === ""? "":`![Screen Shot](${res.screenShot})`;
         res.installation = res.installation || "None";
         res.usage = res.usage || "None";
-        res.contributing = res.contributing || "NOT CURRENTLY"
-        res.license = `![GitHub license](https://img.shields.io/badge/license-${res.license.replace(' ','')}-red.svg)`
+        res.contributing = res.contributing || "NOT CURRENTLY";
+        res.license = `![GitHub license](https://img.shields.io/badge/license-${res.license.replace(' ','')}-red.svg)`;
+        res.testing = res.testing || "No Testing"
         if(!(res.authorName || res.linkedIn || res.email)) {
             res.authorName = "Unknown";
         }

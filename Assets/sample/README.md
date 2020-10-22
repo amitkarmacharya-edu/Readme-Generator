@@ -1,38 +1,47 @@
 # Covid-19 Test Sites & Stats
 
-Provides Test Sites and Stats for all the region in USA
 
+## Description
+Track the spread of covid-19 and Find all the test sites in your county within USA
+
+## Screen Shot
 ![Screen Shot](./webpage.png)
 
 ---
 ### Table of Contents
 - [Description](#description)
+- [Screen Shot](#screenShot)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#License)
+- [Testing](#testing)
 - [Author Info](#author-info)
+- [License](#License)
 ---
 
 ## Installation Guide
 
-No Installation Is required
+None
 
 ## Usage
 
-FREE FOR ALL
+use to track the spread of covid-19 and available test location in your county
 
 ## Contributing
 
-Please Email the author
+please email the author
+
+## Testing
+
+No Testing
 
 ## Author Info
 
-  Amit karmacharya
+  amit karmacharya
 
   amitkarmacharya.work@gmail.com
 
-  amitkarmacharya-linkedIn
+  amitkarmcharya-linkedIn
   
 
 ## License
