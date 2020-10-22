@@ -3,16 +3,17 @@
     A CLI app to generate formatted README.md file.
     
 
-[Watch the DEMO vidow]()
+[Watch the DEMO vidoe](https://youtu.be/ZiQyhMXlmqY)
 
 
 ---
 ### Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#License)
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
 - [Author Info](#author-info)
+- [License](#license)
 ---
 
 
@@ -23,6 +24,9 @@
 * Install package inquirer - 'npm install inquirer'
 * Install packacge fs - 'npm install fs'
 
+## Usage
+
+use the cli app to generate README.md with defualt settings
 
 ## User Story
 
@@ -61,6 +65,5 @@ THEN I am taken to the corresponding section of the README
 
 
   
-
 ## License
 ![GitHub license](https://img.shields.io/badge/license-MIT-red.svg)
